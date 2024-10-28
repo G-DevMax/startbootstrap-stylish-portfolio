@@ -8126,7 +8126,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #A5B68D;
 }
 
 .bg-secondary {
@@ -10877,7 +10877,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #A5B68D;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10982,12 +10982,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #333;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #A5B68D;
   text-decoration: none;
 }
 
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(rgb(1 1 1 / 80%) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/oficina.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11024,6 +11024,26 @@ footer.footer .social-link:hover {
   margin: 0;
   padding: 0;
 }
+
+.masthead h2{
+  font-size: 2.5rem;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.masthead p{
+  font-size: 1.5rem;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -11100,11 +11120,86 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #000;
   height: 7rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Mi área de modificiaciones */
+.btn-personalizado {
+  background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-personalizado-alt {
+  background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-personalizado:hover{
+  color: black;
+  background-color: #A5B68D;
+}
+
+.btn-personalizado-alt:hover {
+  background-color: #ECDFCC;
+  color: #000;
+}
+
+h1 h2{
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+}
+
+.text-personalizado {
+  color: #000;
+}
+
+.callout-title {
+  font-size: 2.5rem; /* Tamaño del título */
+  color: #333;
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Asegura que el texto esté centrado */
+  display: block; /* Asegura que ocupe el ancho completo */
+}
+
+.callout-emphasis {
+  color: #460b0b;
+  font-size: 2rem;
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.callout-text {
+  font-size: 1.25rem;
+  color: #1a0404;
+  margin-bottom: 2rem; /* Espaciado inferior */
+}
+
+.transparent-background {
+  background-color: rgba(0, 0, 0, 0.5); /* Gris con 50% de opacidad */
+  width: 100%; /* Ancho del div */
+  height: auto; /* Altura del div, puedes ajustarlo según tus necesidades */
+}
+
+.paddigExtra{
+  padding: 5px;
 }
